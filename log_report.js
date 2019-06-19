@@ -6,7 +6,7 @@ var resultDrop = {};
 
 function processFile(date){
     var lines = '';
-    //Please edit file location here.
+    //Please edit log folder location here
     try {
        lines = fs.readFileSync("/home/gauravkumar/Desktop/RTTest/QoS_logs/H--RAINTREE-PARKER94-/"+date+".log", 'utf-8');
     } catch(error) {
